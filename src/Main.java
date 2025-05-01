@@ -7,17 +7,20 @@ public class Main {
     public static void main(String[] args) {
 
         //개별 메뉴 생성
+        //햄버거 메뉴
         List<MenuItem> burgerItems = new ArrayList<>();
         burgerItems.add(new MenuItem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
         burgerItems.add(new MenuItem("SmokeShack", 9.9, "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"));
         burgerItems.add(new MenuItem("Cheeseburger", 6.9, "포테이토 번과 비프패티, 치즈가 토핑된 치즈버거"));
         burgerItems.add(new MenuItem("Hamburger", 5.4, "비프패티를 기반으로 야채가 들어간 기본버거"));
 
+        //음료 메뉴
         List<MenuItem> drinkItems = new ArrayList<>();
         drinkItems.add(new MenuItem("Coke", 2.5, "코카콜라"));
         drinkItems.add(new MenuItem("Sprite", 2.5, "스프라이트"));
         drinkItems.add(new MenuItem("Coffee", 3.5, "커피"));
 
+        //사이드 메뉴
         List<MenuItem> sideItems = new ArrayList<>();
         sideItems.add(new MenuItem("French fry", 2.0, "프렌치 프라이"));
         sideItems.add(new MenuItem("Ice cream", 1.5, "아이스크림"));
