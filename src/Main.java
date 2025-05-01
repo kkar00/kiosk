@@ -8,20 +8,21 @@ public class Main {
 
         //개별 메뉴 생성
         List<MenuItem> burgerItems = new ArrayList<>();
-        burgerItems.add(new MenuItem("ShackBurger", 8.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
+        burgerItems.add(new MenuItem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
         burgerItems.add(new MenuItem("SmokeShack", 9.9, "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"));
         burgerItems.add(new MenuItem("Cheeseburger", 6.9, "포테이토 번과 비프패티, 치즈가 토핑된 치즈버거"));
         burgerItems.add(new MenuItem("Hamburger", 5.4, "비프패티를 기반으로 야채가 들어간 기본버거"));
 
         List<MenuItem> drinkItems = new ArrayList<>();
-        drinkItems.add(new MenuItem("Coca-Cola", 3.0, "코카콜라"));
-        drinkItems.add(new MenuItem("Sprite", 3.0, "스프라이트"));
-        drinkItems.add(new MenuItem("Shack Coffee", 3.9, "쉑 블렌드 원두를 사용한 블랙 커피"));
+        drinkItems.add(new MenuItem("Coke", 2.5, "코카콜라"));
+        drinkItems.add(new MenuItem("Sprite", 2.5, "스프라이트"));
+        drinkItems.add(new MenuItem("Coffee", 3.5, "커피"));
 
         List<MenuItem> sideItems = new ArrayList<>();
-        sideItems.add(new MenuItem("Fries", 4.0, "프렌치 프라이"));
-        sideItems.add(new MenuItem("Ice Cream", 4.0, "바닐라 아이스크림"));
-        sideItems.add(new MenuItem("Chicken Bites", 4.0, "한 입에 먹기 좋은 바삭한 치킨 바이트와 허니 머스터드"));
+        sideItems.add(new MenuItem("French fry", 2.0, "프렌치 프라이"));
+        sideItems.add(new MenuItem("Ice cream", 1.5, "아이스크림"));
+        sideItems.add(new MenuItem("Onion ring", 2.5, "바삭 바삭한 어니언 링"));
+        sideItems.add(new MenuItem("Cheese stick", 1.5, "쭉 쭉 늘어나는 치즈스틱"));
 
         // 메뉴 카테고리 추가, 각 개별 항목 추가
         Menu burger = new Menu("Burger");
